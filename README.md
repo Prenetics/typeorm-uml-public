@@ -53,6 +53,7 @@ OPTIONS
   --with-entity-names-only         Whether or not to display only entity names and hide database table names.
   --with-enum-values               Whether or not to show possible values for the enum type field.
   --with-table-names-only          Whether or not to display only database table names and hide entity names.
+  --postgresql-ignore-schema       Whether or not to ignore Postgresql schema setting.
 ```
 
 ## Defining custom colors
