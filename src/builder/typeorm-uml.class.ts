@@ -56,7 +56,7 @@ export class TypeormUml {
 	}
 
 	private manageSchema( rawconnectionOptions: ConnectionOptions, flags: Flags ): ConnectionOptions {
-		if ( 'schema' in rawconnectionOptions && rawconnectionOptions.schema && flags['ignore-schema'] ) {
+		if ( 'schema' in rawconnectionOptions && rawconnectionOptions.schema && flags['postgresql-ignore-schema'] ) {
 			return {
 				...rawconnectionOptions,
 				schema: '',
